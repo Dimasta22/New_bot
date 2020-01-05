@@ -1,18 +1,12 @@
+from botmanlib.models import Database, BaseUser
 from sqlalchemy import Column, Integer, String
-
-from botmanlib.models import Database
 
 database = Database()
 Base = database.Base
 
 
-class User(Base):
+class User(Base, BaseUser):
     __tablename__ = 'users'
-    id = Column(Integer, primary_key=True)
-    chat_id = Column(Integer)
-    first_name = Column(String)
-    last_name = Column(String)
-    username = Column(String)
 
 
 class Products(Base):

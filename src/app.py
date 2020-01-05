@@ -16,7 +16,7 @@ def main():
     request = Request(con_pool_size=8)
 
     bot = BotmanBot(token=bot_token, request=request, mqueue=mqueue)
-    updater = BotmanUpdater(bot=bot, use_context=True, use_sessions=True)
+    updater = BotmanUpdater(bot=bot, use_context=True, use_sessions=False)
 
     dispatcher = updater.dispatcher
 
