@@ -1,0 +1,172 @@
+2020-01-02,17:43:55 telegram.ext.dispatcher ERROR No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\admin\PycharmProjects\New_bot\venv\lib\site-packages\botmanlib\dispatcher.py", line 114, in process_update
+    update_user_session(update)
+  File "C:\Users\admin\PycharmProjects\New_bot\venv\lib\site-packages\botmanlib\dispatcher.py", line 52, in update_user_session
+    if user_model is not None and user_model.sessions:
+AttributeError: type object 'User' has no attribute 'sessions'
+2020-01-02,17:44:32 telegram.ext.dispatcher ERROR No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\admin\PycharmProjects\New_bot\venv\lib\site-packages\botmanlib\dispatcher.py", line 114, in process_update
+    update_user_session(update)
+  File "C:\Users\admin\PycharmProjects\New_bot\venv\lib\site-packages\botmanlib\dispatcher.py", line 52, in update_user_session
+    if user_model is not None and user_model.sessions:
+AttributeError: type object 'User' has no attribute 'sessions'
+2020-01-02,17:44:39 telegram.ext.dispatcher ERROR No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\admin\PycharmProjects\New_bot\venv\lib\site-packages\botmanlib\dispatcher.py", line 114, in process_update
+    update_user_session(update)
+  File "C:\Users\admin\PycharmProjects\New_bot\venv\lib\site-packages\botmanlib\dispatcher.py", line 52, in update_user_session
+    if user_model is not None and user_model.sessions:
+AttributeError: type object 'User' has no attribute 'sessions'
+2020-01-02,17:47:41 telegram.ext.dispatcher ERROR No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\admin\PycharmProjects\New_bot\venv\lib\site-packages\botmanlib\dispatcher.py", line 114, in process_update
+    update_user_session(update)
+  File "C:\Users\admin\PycharmProjects\New_bot\venv\lib\site-packages\botmanlib\dispatcher.py", line 52, in update_user_session
+    if user_model is not None and user_model.sessions:
+AttributeError: type object 'User' has no attribute 'sessions'
+2020-01-02,20:48:19 telegram.ext.dispatcher ERROR No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\admin\PycharmProjects\New_bot\venv\lib\site-packages\botmanlib\dispatcher.py", line 114, in process_update
+    update_user_session(update)
+  File "C:\Users\admin\PycharmProjects\New_bot\venv\lib\site-packages\botmanlib\dispatcher.py", line 52, in update_user_session
+    if user_model is not None and user_model.sessions:
+AttributeError: type object 'User' has no attribute 'sessions'
+2020-01-02,20:48:23 telegram.ext.dispatcher ERROR No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\admin\PycharmProjects\New_bot\venv\lib\site-packages\botmanlib\dispatcher.py", line 114, in process_update
+    update_user_session(update)
+  File "C:\Users\admin\PycharmProjects\New_bot\venv\lib\site-packages\botmanlib\dispatcher.py", line 52, in update_user_session
+    if user_model is not None and user_model.sessions:
+AttributeError: type object 'User' has no attribute 'sessions'
+2020-01-02,20:48:25 telegram.ext.dispatcher ERROR No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\admin\PycharmProjects\New_bot\venv\lib\site-packages\botmanlib\dispatcher.py", line 111, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\admin\PycharmProjects\New_bot\venv\lib\site-packages\telegram\ext\conversationhandler.py", line 343, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "C:\Users\admin\PycharmProjects\New_bot\venv\lib\site-packages\telegram\ext\handler.py", line 117, in handle_update
+    return self.callback(update, context)
+  File "c:\users\admin\pycharmprojects\new_bot\src\app.py", line 57, in delete_product
+    text = update.message.text
+AttributeError: 'NoneType' object has no attribute 'text'
+2020-01-02,20:48:33 telegram.ext.dispatcher ERROR No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\admin\PycharmProjects\New_bot\venv\lib\site-packages\botmanlib\dispatcher.py", line 111, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\admin\PycharmProjects\New_bot\venv\lib\site-packages\telegram\ext\handler.py", line 117, in handle_update
+    return self.callback(update, context)
+  File "c:\users\admin\pycharmprojects\new_bot\src\app.py", line 76, in add_product
+    val = context.validators.String()
+AttributeError: 'CallbackContext' object has no attribute 'validators'
+2020-01-02,20:55:31 telegram.ext.dispatcher ERROR No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\admin\PycharmProjects\New_bot\venv\lib\site-packages\botmanlib\dispatcher.py", line 114, in process_update
+    update_user_session(update)
+  File "C:\Users\admin\PycharmProjects\New_bot\venv\lib\site-packages\botmanlib\dispatcher.py", line 52, in update_user_session
+    if user_model is not None and user_model.sessions:
+AttributeError: type object 'User' has no attribute 'sessions'
+2020-01-02,20:55:37 telegram.ext.dispatcher ERROR No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\admin\PycharmProjects\New_bot\venv\lib\site-packages\botmanlib\dispatcher.py", line 114, in process_update
+    update_user_session(update)
+  File "C:\Users\admin\PycharmProjects\New_bot\venv\lib\site-packages\botmanlib\dispatcher.py", line 52, in update_user_session
+    if user_model is not None and user_model.sessions:
+AttributeError: type object 'User' has no attribute 'sessions'
+2020-01-02,20:55:39 telegram.ext.dispatcher ERROR No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\admin\PycharmProjects\New_bot\venv\lib\site-packages\botmanlib\dispatcher.py", line 111, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\admin\PycharmProjects\New_bot\venv\lib\site-packages\telegram\ext\conversationhandler.py", line 343, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "C:\Users\admin\PycharmProjects\New_bot\venv\lib\site-packages\telegram\ext\handler.py", line 117, in handle_update
+    return self.callback(update, context)
+  File "c:\users\admin\pycharmprojects\new_bot\src\app.py", line 57, in delete_product
+    text = update.message.text
+AttributeError: 'NoneType' object has no attribute 'text'
+2020-01-02,20:55:52 telegram.ext.dispatcher ERROR No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\admin\PycharmProjects\New_bot\venv\lib\site-packages\botmanlib\dispatcher.py", line 114, in process_update
+    update_user_session(update)
+  File "C:\Users\admin\PycharmProjects\New_bot\venv\lib\site-packages\botmanlib\dispatcher.py", line 52, in update_user_session
+    if user_model is not None and user_model.sessions:
+AttributeError: type object 'User' has no attribute 'sessions'
+2020-01-02,20:55:53 telegram.ext.dispatcher ERROR No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\admin\PycharmProjects\New_bot\venv\lib\site-packages\botmanlib\dispatcher.py", line 114, in process_update
+    update_user_session(update)
+  File "C:\Users\admin\PycharmProjects\New_bot\venv\lib\site-packages\botmanlib\dispatcher.py", line 52, in update_user_session
+    if user_model is not None and user_model.sessions:
+AttributeError: type object 'User' has no attribute 'sessions'
+2020-01-04,19:53:33 telegram.ext.dispatcher ERROR No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\admin\PycharmProjects\New_bot\venv\lib\site-packages\botmanlib\dispatcher.py", line 114, in process_update
+    update_user_session(update)
+  File "C:\Users\admin\PycharmProjects\New_bot\venv\lib\site-packages\botmanlib\dispatcher.py", line 52, in update_user_session
+    if user_model is not None and user_model.sessions:
+AttributeError: type object 'User' has no attribute 'sessions'
+2020-01-04,19:53:43 telegram.ext.dispatcher ERROR No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\admin\PycharmProjects\New_bot\venv\lib\site-packages\botmanlib\dispatcher.py", line 114, in process_update
+    update_user_session(update)
+  File "C:\Users\admin\PycharmProjects\New_bot\venv\lib\site-packages\botmanlib\dispatcher.py", line 52, in update_user_session
+    if user_model is not None and user_model.sessions:
+AttributeError: type object 'User' has no attribute 'sessions'
+2020-01-04,19:53:48 telegram.ext.dispatcher ERROR No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\admin\PycharmProjects\New_bot\venv\lib\site-packages\botmanlib\dispatcher.py", line 111, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\admin\PycharmProjects\New_bot\venv\lib\site-packages\telegram\ext\conversationhandler.py", line 343, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "C:\Users\admin\PycharmProjects\New_bot\venv\lib\site-packages\telegram\ext\handler.py", line 117, in handle_update
+    return self.callback(update, context)
+  File "c:\users\admin\pycharmprojects\new_bot\src\menus\admin\admin.py", line 51, in delete_product
+    text = update.message.text
+AttributeError: 'NoneType' object has no attribute 'text'
+2020-01-04,20:01:45 telegram.ext.dispatcher ERROR No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\admin\PycharmProjects\New_bot\venv\lib\site-packages\botmanlib\dispatcher.py", line 114, in process_update
+    update_user_session(update)
+  File "C:\Users\admin\PycharmProjects\New_bot\venv\lib\site-packages\botmanlib\dispatcher.py", line 52, in update_user_session
+    if user_model is not None and user_model.sessions:
+AttributeError: type object 'User' has no attribute 'sessions'
+2020-01-04,20:01:47 telegram.ext.dispatcher ERROR No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\admin\PycharmProjects\New_bot\venv\lib\site-packages\botmanlib\dispatcher.py", line 114, in process_update
+    update_user_session(update)
+  File "C:\Users\admin\PycharmProjects\New_bot\venv\lib\site-packages\botmanlib\dispatcher.py", line 52, in update_user_session
+    if user_model is not None and user_model.sessions:
+AttributeError: type object 'User' has no attribute 'sessions'
+2020-01-04,20:01:50 telegram.ext.dispatcher ERROR No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\admin\PycharmProjects\New_bot\venv\lib\site-packages\botmanlib\dispatcher.py", line 111, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\admin\PycharmProjects\New_bot\venv\lib\site-packages\telegram\ext\conversationhandler.py", line 343, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "C:\Users\admin\PycharmProjects\New_bot\venv\lib\site-packages\telegram\ext\handler.py", line 117, in handle_update
+    return self.callback(update, context)
+  File "c:\users\admin\pycharmprojects\new_bot\src\menus\admin\admin.py", line 68, in add_product
+    text = update.message.text
+AttributeError: 'NoneType' object has no attribute 'text'
+2020-01-04,20:02:00 telegram.ext.dispatcher ERROR No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\admin\PycharmProjects\New_bot\venv\lib\site-packages\botmanlib\dispatcher.py", line 114, in process_update
+    update_user_session(update)
+  File "C:\Users\admin\PycharmProjects\New_bot\venv\lib\site-packages\botmanlib\dispatcher.py", line 52, in update_user_session
+    if user_model is not None and user_model.sessions:
+AttributeError: type object 'User' has no attribute 'sessions'
+2020-01-04,20:02:08 telegram.ext.dispatcher ERROR No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\admin\PycharmProjects\New_bot\venv\lib\site-packages\botmanlib\dispatcher.py", line 114, in process_update
+    update_user_session(update)
+  File "C:\Users\admin\PycharmProjects\New_bot\venv\lib\site-packages\botmanlib\dispatcher.py", line 52, in update_user_session
+    if user_model is not None and user_model.sessions:
+AttributeError: type object 'User' has no attribute 'sessions'
+2020-01-04,20:06:07 telegram.ext.dispatcher ERROR No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\admin\PycharmProjects\New_bot\venv\lib\site-packages\botmanlib\dispatcher.py", line 114, in process_update
+    update_user_session(update)
+  File "C:\Users\admin\PycharmProjects\New_bot\venv\lib\site-packages\botmanlib\dispatcher.py", line 52, in update_user_session
+    if user_model is not None and user_model.sessions:
+AttributeError: type object 'User' has no attribute 'sessions'
