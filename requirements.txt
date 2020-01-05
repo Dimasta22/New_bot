@@ -1,0 +1,9 @@
+sqlalchemy
+alembic
+psycopg2-binary
+FormEncode
+coloredlogs
+beautifulsoup4
+dill
+urllib3
+git+ssh://git@gitlab.com/botman_bots/botmanlib@master#egg=botmanlib
